@@ -24,4 +24,4 @@ Every species is given a certain number of points that they allocate into the 6 
 
 
 # Naming the Creatures:
-
+Every generated creature has a species that it belongs to, a creature is a part of the species depending on it two dominant traits and its intelligence level. for example, a creature with dominant speed trait and size trait, with an intelligence percent high 50 will be called: Sp.Si.U . This stands for dominant speed and sight with an upper intelligence limit (higher than 50%).
