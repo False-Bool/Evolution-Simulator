@@ -1,5 +1,7 @@
 # Evolution-Simulator
 The purpose of this evolution simulator is to help me learn new coding skills and algorithms. The simulator auto generates a new map where creature with very simple traits try to survive for as long as they can for a given period of time. After this period of time, a new generation that went under some minor changes is produced from the older generation. The new generation is then put to the test for the same period of time. After many generation a dominant species should exist and rule this simple world. Do keep in mind that many of these rules are subject to change since only the first phase is finished (map generation).
+# Latest Version:
+EV_S_1_F
 
 # Time:
 A generation in this simulator is equivilant to 45 seconds, every creature can make 1 move/sec where ine move= 1 grid/tile on the map. after the generation's time is over all creature asexually reproduce with slight mutations and are then put to the test once again.
