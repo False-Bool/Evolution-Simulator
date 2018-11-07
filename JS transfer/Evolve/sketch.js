@@ -27,8 +27,8 @@ function setup() {
     //fill in creature list with creatures
   for (var i = 0; i < 1; i++) {
   //  creature[i] = new Creature(5 + i * tile_size, 5 + i * tile_size)
-  creature[i] = new Creature(5 + 5 * tile_size, 5 + 5 * tile_size)
-    creature[i].setup();
+  creature[i] = new Creature(5 + 0 * tile_size, 5 + 0* tile_size)
+  creature[i].setup();
 
   }
 
@@ -39,12 +39,13 @@ function setup() {
 function draw() {
   background(255);
   display();
-
+  timer();
   for (var i = 0; i < creature.length; i++) {
     creature[i].run();
+
   }
-  timer();
-//  print(time);
+
+  //print(time);
 }
 
 
